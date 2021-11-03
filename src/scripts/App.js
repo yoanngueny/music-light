@@ -91,7 +91,7 @@ export default class App {
       this.composer.addPass(renderPass);
       const bloomEffect = new BloomEffect({
         blendFunction: BlendFunction.SCREEN,
-        kernelSize: KernelSize.LARGE,
+        kernelSize: KernelSize.MEDIUM,
         luminanceThreshold: 0.4,
         luminanceSmoothing: 0.1,
         height: 480
