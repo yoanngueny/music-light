@@ -1,7 +1,7 @@
 {
-  "name": "webpack-starter",
+  "name": "music-light",
   "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "description": "",
   "scripts": {
     "lint": "npm run lint:styles; npm run lint:scripts",
     "lint:styles": "stylelint src",
@@ -59,6 +59,10 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "core-js": "^3.16.1",
-    "d3": "^7.0.0"
+    "d3": "^7.0.0",
+    "gsap": "^3.8.0",
+    "postprocessing": "^6.23.2",
+    "stats.js": "^0.17.0",
+    "three": "^0.134.0"
   }
 }
